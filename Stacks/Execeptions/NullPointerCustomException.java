@@ -3,12 +3,12 @@ package Exeption;
 public class NullPointerCustomException extends RuntimeException {
 
     /**
-     * Mensagem padrão exibida quando a exceção é lançada
+     * Default message displayed when the exception is thrown
      */
     private static final String DEFAULT_MESSAGE = "Null Pointer Detected!!!";
 
     /**
-     * Construtor padrão - usa a mensagem padrão
+     * Default constructor - uses the default message
      */
     public NullPointerCustomException() {
         super(DEFAULT_MESSAGE);
